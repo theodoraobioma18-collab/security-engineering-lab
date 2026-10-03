@@ -1,0 +1,13 @@
+# Sample IOCs for testing the enrichment tool
+# Public IPs
+8.8.8.8
+1.1.1.1
+199.45.155.38
+# Private IP (should be skipped, not sent to any API)
+192.168.1.10
+# EICAR test file hashes (harmless antivirus test string)
+44d88612fea8a8f36de82e1278abb02f
+3395856ce81f2b7382dee72602f798b642f14140
+275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
+# Junk input (should be flagged as unknown)
+not-an-ioc
